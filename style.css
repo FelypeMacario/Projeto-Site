@@ -5,16 +5,17 @@
 }
 
 body {
-  background-color: #4669DB;
+  background-color: #b9c5ec;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url(images/programador.png);
 }
 
 header {
   width: 100%;
 }
-
+/* INÍCIO HEADER */
 .container {
   background-color: #f2f2f2;
   padding: 25px;
@@ -37,11 +38,13 @@ header {
   font-size: 17px;
   cursor: pointer;
   padding: 10px 15px;
+  border-left: 1px solid black;
 }
+
+
 
 .nav-bar a:hover {
   color: #4669DB;
-  font-weight: bold;
 }
 
 .logo-nav img {
@@ -70,18 +73,47 @@ header {
   transform: scale(1.05);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
+/* FIM HEADER */
 
-main {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* centraliza verticalmente */
-  padding: 80px;
+/*INÍCIO MAIN */
+main{
+  flex: 1;
+  padding: 20px;
 }
 
 .text{
-   font-family: Arial, Helvetica, sans-serif;
-   display: flex;
-   text-align: center;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  font-size: 17px;
 }
 
+.sub-title{
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 5%;
+  }
+  /*FIM MAIN */
+
+  /*INÍCIO FOOTER */
+.footer-container{
+  background-color: #f2f2f2;
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  }
+
+  .footer-container p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    }
