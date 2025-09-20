@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #b9c5ec;
   display: flex;
@@ -86,34 +88,45 @@ main{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
-  padding-top: 4%;
+  padding-top: 2%;
   font-size: 17px;
+  padding-bottom: 20px;
 }
 
-.sub-title{
-  color: #f2f2f2;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 5%;
-  }
-  /*FIM MAIN */
-
-  /*INÍCIO FOOTER */
-.footer-container{
-  background-color: #f2f2f2;
-  padding: 25px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  
-  }
-
-  .footer-container p{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.container-script{
+    display: flex;
+    border: #f2f2f2 solid ;
+    padding: 19%;
+    border-radius: 10px;
+    text-align: center;
     
+  }
 
-    }
+.sub-title-qm{
+  display: flex;
+  color: #f2f2f2;
+  justify-content: center;
+  padding-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sub-title-p{
+  display: flex;
+  color: #f2f2f2;
+  justify-content: center;
+  padding-top: 10px ;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*FIM MAIN */
